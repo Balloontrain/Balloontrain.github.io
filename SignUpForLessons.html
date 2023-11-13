@@ -67,20 +67,20 @@
         </div>
         <div class="w3-third w3-padding-large">
             <div>  
-                <form id="contact" action="" method="post">
+                <form onsubmit="sendEmail (); reset (); return false;" id="contact">
                   <h3>Contact The Teacher</h3>
                   <h4></h4>
                   <fieldset>
-                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                    <input placeholder="Your name" id="name" type="text" tabindex="1" required autofocus>
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                    <input placeholder="Your Email Address" id="email" type="email" tabindex="2" required>
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                    <input placeholder="Your Phone Number" id="phone" type="tel" tabindex="3" required>
                   </fieldset>
                   <fieldset>
-                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                    <textarea placeholder="Type your message here...." id="message" tabindex="5" required></textarea>
                   </fieldset>
                   <fieldset>
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
@@ -90,6 +90,7 @@
               </div>
             </div>
     </div>
+    <!--  action="" method="post" -->
 </div>
 
 <div id="space" style="margin-left:150px" class="w3-main">
@@ -164,6 +165,22 @@ function w3_close() {
   overlayBg.style.display = "none";
 }
 </script>
-
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail () {
+      Email.send({
+        SecureToken: '4d30926f-56dc-4396-a8ba-6b10d8034262',
+        To : 'musicalmagwheels@gmail.com',
+        From : 'musicalmagwheels@gmail.com',
+        Subject : 'Peaceful Piano Lessons',
+        Body : 'Name: ' + document.getElementById("name").value
+          + '<br> Email: ' + document.getElementById("email").value
+          + '<br> Phone Number: ' + document.getElementById("phone").value
+          + '<br> Message: ' + document.getElementById("message").value
+      }).then(
+        message => alert("Message Sent Succesfully")
+      );
+  }
+</script>
 </body>
 </html>
