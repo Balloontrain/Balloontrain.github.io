@@ -13,6 +13,7 @@ h1 {
   color: #C68335;
   font-size: 5em;
   line-height: 1.1;
+  text-shadow: 1px 1px 4px #fafafa;
 }
 
 p {
@@ -21,9 +22,7 @@ p {
 }
 
 Body {
-    background-color: #F5F3E7;
-    text-align: center;
-    
+    background-color: #F5F3E7;  
 }
 
 div { 
@@ -36,12 +35,36 @@ ul {
     font-size: larger;
 }
 
-.w3-theme-d1 {
-  color: #79b264 !important;background-color:#F5E5E2!important
+.sunny {
+  border-radius: 15px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.icons8 {
+  border-radius: 25px;
+  filter: drop-shadow(5px 5px 4px #C68335);
+}
+
+.w3-theme-d1 {
+  color: #79b264 !important;background-color:#F5E5E2!important;
+  border-radius: 50px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.w3-theme-d2 {
+  color: #5C1D06 !important;background-color:#E7CBA9!important;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 7px;
+}
+
+.banner {
+  object-fit: cover;
+}
+
+
 #space {
-    align-items:stretch;
+    align-items:stretch; 
 }
 
 #Digory2 {
@@ -50,19 +73,16 @@ ul {
 }
 
 #wideLogo {
-    align-content: center;
+  border-radius: 10px;
 }
 
 #logo  {
     max-height: 100px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-h44 {
-    color: #5C1D06;
-    font-family: 'Grand Hotel', cursive;
-    font-size: 5em;
-    
-} 
+
 .w3-top {
     background-color: #CCD4BF;
 }
@@ -73,10 +93,22 @@ h44 {
     color: #5C1D06
 }
 
+.bottomPiano {
+  position : absolute;
+  right: 0;
+  bottom : 0;
+  height : 40px;
+}
+
 footer {
     background-color: #F5EFDC;
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+
 }
-.w3-container-2 {
+
+#myFootertwo {
     background-color: #CCD8D4;
 }
 

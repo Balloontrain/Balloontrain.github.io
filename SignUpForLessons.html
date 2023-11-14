@@ -35,45 +35,47 @@
 <body style="color: #5C1D06;">
 
 <!-- Navbar -->
-<div class="w3-top" id="topBar">
+<div class="w3-top " id="topBar">
   <div class="w3-bar w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-11" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white" id="Digory">Peaceful Piano Studio</a>
-    <a href="MeetTheTeacher.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Meet The Teacher</a>
+    <a class="w3-bar-item w3-button w3-round-xxlarge w3-right w3-hide-large w3-hover-white w3-large w3-theme-11" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-round-xxlarge w3-hide-small w3-hover-white" id="Digory">Peaceful Piano Studio - Home</a>
+    <a href="MeetTheTeacher.html" class="w3-bar-item w3-button w3-round-xxlarge w3-border w3-border-right w3-hide-small w3-hide-medium w3-hover-white">Meet The Teacher</a>
     <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a> 
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a> -->
-    <a href="SignUpForLessons.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Contact Us</a>
+    <a href="SignUpForLessons.html" class="w3-bar-item w3-button w3-round-xxlarge w3-border w3-border-right w3-hide-small w3-hide-medium w3-hover-white">Contact Us</a>
     <a class="w3-left-align w3-bar-item w3-hide-medium w3-hide-large ">MENU</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white"></a>
+    <!-- <a href="#" class="w3-bar-item w3-button w3-round-xxlarge w3-hide-small w3-hide-medium w3-hover-white"></a> -->
   </div>
 </div>
 
 <!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-animate-left w3-padding-small w3-center" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-padding-small w3-center" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-small w3-hover-white w3-hide-large" title="Close Menu">
     <i class="fa fa-remove"></i>
   </a> 
   <!-- Sidebar Logo -->
-  <a href="index.html"><div class="w3-hide-large"><img id="logo" src="greenlogosquare300x300px.png" alt="Sunny Piano Lesson"></div></a>
-  <h4 class="w3-bar-item"><b>MORE</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-white" href="SignUpForLessons.html">Contact Us</a>
-  <a class="w3-bar-item w3-button w3-hover-white" href="MeetTheTeacher.html">Meet The Teacher</a>
+  <a style="text-decoration: none;" href="./index.html"><div class="w3-hide-large"><img id="logo" src="./BROWNgreenlogosquare300 x 300px.png" alt="Peaceful Piano Studio Logo"></div>
+  <h4 class="w3-bar-item w3-button w3-round-xxlarge w3-hover-white"><b>HOME</b></h4></a>
+  <a class="w3-bar-item w3-button w3-hover-white w3-theme-d2" href="SignUpForLessons.html">Contact Us</a>
+  <a class="w3-bar-item w3-button w3-hover-white w3-theme-d2" href="MeetTheTeacher.html">The Teacher</a>
   <!-- <a class="w3-bar-item w3-button w3-hover-white" href="#">Documents</a>
   <a class="w3-bar-item w3-button w3-hover-white" href="#">Piano Methods</a>
   <a class="w3-bar-item w3-button w3-hover-white" href="#">Studio Policy</a>-->
+  <img class="bottomPiano" src="CozyPianoIconTransparentBrown.png" style="max-width: 100%; height: auto; size: float;" alt="Cozy Piano Image">
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible  max-width: 50%; height: auto; size: float; -->
 <div id="space" style="margin-left:150px" class="w3-main">
     <div class="w3-padding-64 w3-margin-top w3-margin-bottom"> 
-        <div class="w3-twothird w3-container">
-            <h1 class="w3-text w3-margin-top">Contact Us</h1>
-            <p class="w3-margin-top">Do you have more questions? Ready to sign up for lessons? Just fill out the form and we will get back you as soon as possible!</p>
-            <img src="PastelComputer.png" style="max-width: 50%; height: auto; size: float;" alt="Pastel Computer">
-        </div>
+        <div class="w3-twothird w3-container">          
+            <h1 class="w3-animate-zoom w3-text w3-margin-top">Contact Us</h1>           
+            <p class="w3-margin-top">Do you have more questions? <br><br> Ready to sign up for lessons? <br><br>Just fill out the form and we will get back you as soon as possible!</p>
+            <img class="w3-card w3-round-xlarge" style="width: 100%; max-height: 200px; object-fit: cover;" src="pexels-rdne-stock-project-10566482.jpg" alt="Child playing toy piano">            
+            <p class="w3-small">Photo by RDNE Stock project: <a href="https://www.pexels.com/photo/close-up-on-child-hands-on-toy-piano-10566482/">PEXELS</a></p>         
+          </div>
         <div class="w3-third w3-padding-large">
             <div>  
                 <form onsubmit="sendEmail (); reset (); return false;" id="contact">
@@ -105,26 +107,29 @@
 <div id="space" style="margin-left:150px" class="w3-main">
     <div class="w3-margin-top w3-margin-bottom"> 
         <div class="w3-container">
-            <h1 class="w3-padding-64 w3-border-top">Social Media</h1>
-            <div class="w3-third w3-container" text><p>Facebook</p>
-                <a href="https://www.facebook.com/peacefulpianostudio/"><p class="w3-padding-large w3-padding-32 w3-center"><img id="sunny" src="icons8-facebook-128.png" style="max-width: 100%; height: auto; size: float;" alt="Facebook Icon"></p></a> 
+            <h1 class="w3-padding-16 w3-border-top">Social Media</h1>
+            <div class="w3-third w3-container">
+              <a style="text-decoration: none;" href="https://www.facebook.com/peacefulpianostudio/">
+                <p class="w3-card w3-button w3-padding-small w3-border w3-border-blue w3-hover-white w3-round-xxlarge">Facebook</p>
+                <p class="w3-center"><img class="icons8" src="icons8-facebook-128.png" style="max-width: 100%; height: auto; size: float;" alt="Facebook Icon"></p></a> 
                 <small><div class="w3-text-light-blue"><a target="_blank" href="https://icons8.com/icon/uLWV5A9vXIPu/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div></small>
             </div>
-            <div class="w3-third w3-container"><p>Yelp</p>
-                <a href="https://www.yelp.com/biz/peaceful-piano-lessons-richmond"><p class="w3-padding-large w3-padding-32 w3-center"><img id="sunny" src="icons8-yelp-200.png" style="max-width: 80%; max-height: 128px; size: float;" alt="Yelp Icon"></p></a>
+            <div class="w3-third w3-container">
+                <a style="text-decoration: none;" href="https://www.yelp.com/biz/peaceful-piano-lessons-richmond">
+                  <p class="w3-card w3-button w3-padding-small w3-border w3-border-deep-orange w3-hover-white w3-round-xxlarge">Yelp</p>
+                  <p class="w3-center"><img class="icons8" src="icons8-yelp-200.png" style="max-width: 80%; max-height: 128px; size: float;" alt="Yelp Icon"></p></a>
                 <small><div class="w3-text-khaki"><a target="_blank" href="https://icons8.com/icon/a0N83ya5rsUt/yelp">Yelp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div></small>
             </div>
-            <div class="w3-third w3-container"><p>WhatsApp</p>
-                <a href="https://wa.me/message/SY3APEUUKK5MA1"><p class=" w3-padding-large w3-padding-32 w3-center"><img id="sunny" src="icons8-whatsapp-128.png" style="max-width: 100%; height: auto; size: float;" alt="WhatsApp Icon"></p></a>
+            <div class="w3-third w3-container">
+                <a style="text-decoration: none;" href="https://wa.me/message/SY3APEUUKK5MA1">
+                  <p class="w3-card w3-button w3-padding-small w3-border w3-border-green w3-hover-white w3-round-xxlarge">WhatsApp</p>
+                  <p class="w3-center"><img class="icons8" src="icons8-whatsapp-128.png" style="max-width: 100%; height: auto; size: float;" alt="WhatsApp Icon"></p></a>
                 <small><div class="w3-text-light-green"><a target="_blank" href="https://icons8.com/icon/42961/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div></small>
             </div>
-
-<!-- Footer Image -->
-<div>
-    <img src="CozyPianoIconTransparentBrown.png" style="max-width: 50%; height: auto; size: float;" alt="Cozy Piano Image">
+        </div>
+    </div>
 </div>
-
-  <!-- Pagination 
+<!-- Pagination 
   <div class="w3-center w3-padding-32">
     <div class="w3-bar">
       <a class="w3-button w3-white" href="#">1</a>
@@ -135,18 +140,20 @@
       <a class="w3-button w3-hover-white" href="#">»</a>
     </div>
   </div> -->
-  </div>
-  <footer id="myFooter">
-    <div class="w3-container w3-padding-16 w3-center">
-      <h5 class="w3-small"> &#169; 2023 Peaceful Piano Studio 
-        &nbsp;&nbsp;Phone number: <a href="tel:804-404-3204">(804) 404-3204</a> 
-        &nbsp;&nbsp;Email Address: <a href="mailto:musicalmagwheels@gmail.com?subject=Contacting%20About%20Piano%20Lessons">musicalmagwheels@gmail.com</a></h5>
-    </div></footer>
-    <div class="w3-container-2 w3-padding-16 w3-center" id="myFootertwo">
-      <p class="w3-small">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </div>
-
-
+<!-- Footer Image -->
+<div>
+  <img src="pexels-cottonbro-studio-6853297.jpg" style="width: 100%; max-height: 300px; object-fit: cover; margin-top: 20px;" alt="Cozy Piano Image">
+</div>  
+<footer id="myFooter" class="w3-display-container">
+  <div class="w3-container w3-display-container w3-padding-16 w3-center">
+    <h5 class="w3-small"> 
+      Peaceful Piano Studio &nbsp;&nbsp;Phone: <a href="tel:804-404-3204">(804) 404-3204</a>
+      &nbsp;&nbsp;Email: <a href="mailto:musicalmagwheels@gmail.com?subject=Contacting%20About%20Piano%20Lessons">musicalmagwheels@gmail.com</a></h5>
+ </div>
+        <div class="w3-container" id="myFootertwo">
+          <p class="w3-small">&#169; 2023 Peaceful Piano Studio &nbsp;&nbsp; Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>&nbsp;&nbsp;Cat Photo by cottonbro studio: <a href="https://www.pexels.com/photo/white-cat-on-piano-keys-6853297/">PEXELS</a></p>
+        </div>
+</footer>
 <!-- END MAIN -->
 
 
