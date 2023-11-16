@@ -62,6 +62,19 @@ ul {
   object-fit: cover;
 }
 
+.tableHeading {
+  font-style: italic;
+  color: #C68335;
+  background-color: #F5EFDC;
+}
+
+.tableColor {
+  background-color: #F5EFDC;
+}
+
+#priceColor {
+  background-color: #F5EFDC;
+}
 
 #space {
     align-items:stretch; 
