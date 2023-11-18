@@ -1,11 +1,6 @@
-html,body,h3,h4,h5,h6 {
+html,body,h4,h5,h6 {
     font-family: 'Josefin Sans', sans-serif;
     color: #5C1D06;
-}
-h2 {
-    font-family: 'Grand Hotel', cursive;
-    font-size: 2em;
-    color: #C68335;
 }
 
 h1 {
@@ -15,7 +10,16 @@ h1 {
   line-height: 1.1;
   text-shadow: 1px 1px 4px #fafafa;
 }
-
+h2 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 4em;
+  color: #C68335;
+}
+h3 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 2em;
+  color: #C68335;
+}
 p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: larger;
