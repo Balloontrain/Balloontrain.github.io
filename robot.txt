@@ -4,4 +4,4 @@ Allow: /
 User-agent: *
 Disallow: *.pdf$
 
-Sitemap: https://www.peacefulpiano.pages.dev/sitemap.xml
+Sitemap: https://peacefulpiano.pages.dev/sitemap.xml
