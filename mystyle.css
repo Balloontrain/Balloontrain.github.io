@@ -117,6 +117,12 @@ ul {
   height : 40px;
 }
 
+@media only screen and (max-height: 550px) {
+  .bottomPiano {
+    display: none;
+  }
+}
+
 footer {
     background-color: #F5EFDC;
     position : absolute;
